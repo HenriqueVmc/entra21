@@ -1,0 +1,13 @@
+c:\users\henricoltz\documents\visual studio 2013\Projects\Lista03\Lista03\bin\Debug\Lista03.exe.config
+C:\Users\Aluno\Documents\Visual Studio 2017\Projects\Lista03\Lista03\bin\Debug\Lista03.exe.config
+C:\Users\Aluno\Documents\Visual Studio 2017\Projects\Lista03\Lista03\bin\Debug\Lista03.exe
+C:\Users\Aluno\Documents\Visual Studio 2017\Projects\Lista03\Lista03\bin\Debug\Lista03.pdb
+C:\Users\Aluno\Documents\Visual Studio 2017\Projects\Lista03\Lista03\obj\Debug\Lista03.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Documents\Visual Studio 2017\Projects\Lista03\Lista03\obj\Debug\Lista03.exe
+C:\Users\Aluno\Documents\Visual Studio 2017\Projects\Lista03\Lista03\obj\Debug\Lista03.pdb
+C:\Users\Henricoltz\Desktop\Lista03\Lista03\bin\Debug\Lista03.exe.config
+C:\Users\Henricoltz\Desktop\Lista03\Lista03\obj\Debug\Lista03.exe
+C:\Users\Henricoltz\Desktop\Lista03\Lista03\obj\Debug\Lista03.pdb
+C:\Users\Henricoltz\Desktop\Lista03\Lista03\bin\Debug\Lista03.exe
+C:\Users\Henricoltz\Desktop\Lista03\Lista03\bin\Debug\Lista03.pdb
+C:\Users\Henricoltz\Desktop\Lista03\Lista03\obj\Debug\Lista03.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova2-while\prova2-while\bin\Debug\prova2-while.exe.config
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova2-while\prova2-while\bin\Debug\prova2-while.exe
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova2-while\prova2-while\bin\Debug\prova2-while.pdb
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova2-while\prova2-while\obj\Debug\prova2-while.csprojResolveAssemblyReference.cache
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova2-while\prova2-while\obj\Debug\prova2-while.exe
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova2-while\prova2-while\obj\Debug\prova2-while.pdb
+C:\Users\i3i\Documents\GitHub\prova2Entra21\prova2-while\prova2-while\bin\Debug\prova2-while.exe.config
+C:\Users\i3i\Documents\GitHub\prova2Entra21\prova2-while\prova2-while\obj\Debug\prova2-while.exe
+C:\Users\i3i\Documents\GitHub\prova2Entra21\prova2-while\prova2-while\obj\Debug\prova2-while.pdb
+C:\Users\i3i\Documents\GitHub\prova2Entra21\prova2-while\prova2-while\bin\Debug\prova2-while.exe
+C:\Users\i3i\Documents\GitHub\prova2Entra21\prova2-while\prova2-while\bin\Debug\prova2-while.pdb
+C:\Users\i3i\Documents\GitHub\prova2Entra21\prova2-while\prova2-while\obj\Debug\prova2-while.csprojResolveAssemblyReference.cache

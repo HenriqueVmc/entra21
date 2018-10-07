@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.TituloPagina</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/aluno/cadastro.js"></script>
+
+    <!--
+        <link rel="stylesheet" type="text/css" href="~/Content/all.css" />
+        <script src="~/Content/bootstrap/js/bootstrap.js"></script>
+        <script src="~/Scripts/recrutadora/cadastro.js"></script>
+        <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap/bootstrap.css" />
+    -->
+
+</head>
+<body class="bg-light">
+    <div class="pt-2 pb-2 bg-dark">
+        <h5 class="font-weight-bold text-white display-8 text-center">Gerenciamento de Alunos <i class="fa fa-address-book"></i></h5>
+    </div>
+
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova1Entra21\prova1Entra21\bin\Debug\prova1Entra21.exe.config
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova1Entra21\prova1Entra21\bin\Debug\prova1Entra21.exe
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova1Entra21\prova1Entra21\bin\Debug\prova1Entra21.pdb
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova1Entra21\prova1Entra21\obj\Debug\prova1Entra21.csprojResolveAssemblyReference.cache
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova1Entra21\prova1Entra21\obj\Debug\prova1Entra21.exe
+C:\Users\i3i\Documents\GitHub\introducaoWinForms\prova1Entra21\prova1Entra21\obj\Debug\prova1Entra21.pdb
+C:\Users\i3i\Documents\GitHub\prova1Entra21\prova1Entra21\prova1Entra21\bin\Debug\prova1Entra21.exe.config
+C:\Users\i3i\Documents\GitHub\prova1Entra21\prova1Entra21\prova1Entra21\obj\Debug\prova1Entra21.exe
+C:\Users\i3i\Documents\GitHub\prova1Entra21\prova1Entra21\prova1Entra21\obj\Debug\prova1Entra21.pdb
+C:\Users\i3i\Documents\GitHub\prova1Entra21\prova1Entra21\prova1Entra21\bin\Debug\prova1Entra21.exe
+C:\Users\i3i\Documents\GitHub\prova1Entra21\prova1Entra21\prova1Entra21\bin\Debug\prova1Entra21.pdb
+C:\Users\i3i\Documents\GitHub\prova1Entra21\prova1Entra21\prova1Entra21\obj\Debug\prova1Entra21.csprojResolveAssemblyReference.cache

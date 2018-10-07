@@ -1,0 +1,59 @@
+﻿
+@{
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<div class="container border mt-3 col-md-12">
+    @Html.ActionLink("Novo Conserto", "Cadastro", "Conserto", new { @class = "btn btn-success float-right mb-3 mt-4" })
+    <h1 class="display-4">Lista de Consertos</h1>
+    <hr />
+    <table class="table table-striped table-hover">
+
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Dono</th>
+                <th scope="col">Modelo</th>
+                <th scope="col">Cor</th>
+                <th scope="col">Situacao</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+
+        <tbody scope="row">
+            @foreach (Ex2AspMVC.Models.Conserto conserto in @ViewBag.Conserto)
+            {
+            <tr>
+                <td>@conserto.Id</td>
+                <td>@conserto.DonoVeiculo</td>
+                <td>@conserto.ModeloVeiculo</td>
+                <td>@conserto.CorVeiculo</td>
+                <td>@conserto.Situacao</td>
+
+                <td>
+                    <a class="btn btn-outline-primary" href="/Conserto/Editar?id=@conserto.Id">
+                        <i class="fa fa-pencil-alt"> Editar</i>
+                    </a>
+                    <a class="btn btn-outline-danger" href="/Conserto/Excluir?id=@conserto.Id">
+                        <i class="fa fa-trash"> Excluir</i>
+                    </a>
+                </td>
+
+            </tr>
+            }
+        </tbody>
+
+        <tfoot class="thead-dark" scope="row">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Dono</th>
+                <th scope="col">Modelo</th>
+                <th scope="col">Cor</th>
+                <th scope="col">Situacao</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </tfoot>
+
+    </table>
+</div>
+
