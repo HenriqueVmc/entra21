@@ -1,0 +1,86 @@
+﻿<!--
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="~/Content/css/bootstrap/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="~/Content/all.css" />
+
+    <title>Cadastro</title>
+
+</head>
+<body>
+-->
+@{
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+<div class="row mt-3">
+    <div class="col-md-8 offset-2 mb-3">
+        <div class="container border mt-3">
+            @Html.ActionLink("Nova Recrutadora", "Cadastro", "Recrutadora", new { @class = "btn btn-primary float-right mb-3 mt-3" }) <!--metodo, controller-->
+            <h1 class="col-sm-12 display-6">Cadastro</h1>
+            <hr />
+            <form action="/Recrutadora/Store" method="POST" class="form-horizontal" onsubmit="validarFrm()"><!--validarFrm(); return false;-->
+                <div class="form-group">
+                    <label for="nome" class="col-sm-4 control-label">Nome: <span class="text-danger font-weight-bold">*</span></label>
+                    <div class="col-sm-12" id="div-nome">
+                        <input type="text" class="form-control" name="Recrutadora.Nome" id="nome" placeholder="Ex: Jair Bolsonaro" required onfocusout="validarNome()" value="@ViewBag.Recrutadora.Nome">
+                        @Html.ValidationMessage("Recrutadora.Nome", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="cpf" class="col-sm-4 control-label">CPF: <span class="text-danger font-weight-bold">*</span></label>
+
+                    <div class="col-sm-12">
+                        <input type="text" class="form-control" name="Recrutadora.Cpf" id="cpf" placeholder="Ex: 000.000.000-00" required value="@ViewBag.Recrutadora.Cpf">
+                        @Html.ValidationMessage("Recrutadora.Cpf", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="salario" class="col-sm-4 control-label">Salário: <span class="text-danger font-weight-bold">*</span></label>
+                    <div class="col-sm-12">
+                        <input type="text" class="form-control" name="Recrutadora.Salario" id="salario" placeholder="Ex: 0000.00" required value="@ViewBag.Recrutadora.Salario">
+                        @Html.ValidationMessage("Recrutadora.Salario", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="tempoEmpresa" class="col-sm-4 control-label">Tempo de Empresa: <span class="text-danger font-weight-bold">*</span></label>
+                    <div class="col-sm-12">
+
+                        <select class="form-control" name="Recrutadora.TempoEmpresa" id="tempoEmpresa" value="@ViewBag.Recrutadora.TempoEmpresa">
+                            <option value="0">0 ano</option>
+                            <option value="1">1 ano</option>
+                            <option value="2">2 anos</option>
+                            <option value="3">3 anos</option>
+                            <option value="4">4 anos</option>
+                            <option value="5">5 anos</option>
+                            <option value="6">6 anos</option>
+                        </select>
+                        @Html.ValidationMessage("Recrutadora.TempoEmpresa", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-12">
+                        <button type="submit" class="btn btn-outline-success" name="btnenviar" id="btnenviar">
+                            <i class="fa fa-save"> Cadastrar</i>
+                        </button>
+                        <button type="reset" class="btn btn-outline-danger float-right name=" btnlimpar" id="btnlimpar">
+                            <i class="fa fa-trash"> Limpar</i>
+                        </button>
+
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

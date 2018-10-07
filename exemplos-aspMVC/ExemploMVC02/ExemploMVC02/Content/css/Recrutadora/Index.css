@@ -1,0 +1,53 @@
+﻿
+body {
+    margin-top:10px;
+}
+/*
+table{
+    width:100%
+}
+
+table thead tr, table tfoot tr{
+    
+    background-color: #0094ff;    
+    height: 40px;
+    
+}
+
+table tbody tr{
+    color: black;
+    height: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+
+table tbody tr td{
+    padding-left: 10px;
+}
+
+ Linha cor sim e cor não
+table tr:nth-child(even) td{
+    background-color: #949494;
+}
+
+table tr:nth-child(odd) td{
+    background-color: #faec9c;
+}
+*/
+.btnNovaRecrutadora{
+     width: 150px;
+     height: 30px;
+     font-family: sans-serif;
+     font-size: 14px;
+     background-color: #0094ff;
+     color: white;
+     display: block;
+     text-decoration: none;
+     border-radius: 8px;
+     line-height: 28px;
+     text-align: center;
+     float: right;
+     margin-bottom: 10px;
+     margin-right: 5px;
+}

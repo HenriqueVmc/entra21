@@ -1,0 +1,74 @@
+﻿<!--
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link rel="stylesheet" type="text/css" href="~/Content/css/Recrutadora/Index.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap/bootstrap.css" />
+    <script src="~/Content/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+<body>
+ 'a|Html.ActionLink("Nova Recrutadora", "Cadastro", "Recrutadora", new { a|class = "btnNovaRecrutadora" })
+
+-->
+@{
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<div class="container border mt-3">
+    @Html.ActionLink("Nova Recrutadora", "Cadastro", "Recrutadora", new { @class = "btn btn-primary float-right mb-3 mt-3" })
+    <h1 class="display-4">Lista de Recrutadoras</h1>
+
+    <table class="table table-striped table-hover">
+
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Código</th>
+                <th scope="col">Nome</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Ação</th>
+            </tr>
+        </thead>
+
+        <tbody scope="row">
+            @foreach (ExemploMVC02.Models.Recrutadora recrutadora in @ViewBag.Recrutadoras)
+            {
+                <tr>
+                    <td>@recrutadora.Id</td>
+                    <td>@recrutadora.Nome</td>
+                    <td>@recrutadora.Cpf</td>
+                    <td>
+                        <a class="btn btn-outline-primary" href="/Recrutadora/Editar?id=@recrutadora.Id">
+                            <i class="fa fa-pencil-alt"> Editar</i>
+                        </a>
+                        <a class="btn btn-outline-danger" href="/Recrutadora/Excluir?id=@recrutadora.Id">
+                            <i class="fa fa-trash"> Excluir</i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+        <tfoot class="bg-warning" scope="row">
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th scope="col">Ação</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</div>
+<!--
+</body>
+</html>
+ -->
